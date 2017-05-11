@@ -1,0 +1,47 @@
+body{
+  font-size:300px;
+
+}
+@media(min-width:0px)and (max-width:240px){
+    body{
+        background: red;
+        color:black;
+        font-size:50px;
+      }
+}
+@media(min-width:240px) and (max-width:320px){
+    body{
+        background: blue;
+        color:blue;
+          font-size:90px;
+      }
+}
+@media(min-width:320px) and (max-width:480px){
+    body{
+        background: black;
+        color:red;
+        font-size:125px;
+      }
+}
+@media(min-width:720px) and (max-width:960px){
+    body{
+        background: yellow;
+        color:red;
+          font-size:200px;
+      }
+}
+
+@media (min-width:960px) and (max-width:1200px){
+    body{
+        background: green;
+        color:black;
+        font-size:300px;
+      }
+}
+
+@media(min-width:1201px){
+    body{
+        background: purple;
+        color:black;
+      }
+}

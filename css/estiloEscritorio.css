@@ -1,0 +1,25 @@
+body{
+  font-size:1200px;
+
+}
+@media(max-width:963px) and (min-width:764px){
+    body{
+        background: red;
+        color:black;
+        font-size:50px;
+      }
+}
+@media(max-width:763px) and (min-width:321px){
+    body{
+        background: blue;
+        color:blue;
+          font-size:40px;
+      }
+}
+@media(max-width:320px) {
+    body{
+        background: black;
+        color:red;
+        font-size:20px;
+      }
+}
